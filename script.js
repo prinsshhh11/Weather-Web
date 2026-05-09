@@ -1,5 +1,3 @@
-
-
 const apiKey = "9b95d2bd4fb9742cfceb7ac11f26c926"; 
 const apiUrl = "https://api.openweathermap.org/data/2.5/weather?units=metric&q=";
 
@@ -61,7 +59,7 @@ searchBtn.addEventListener("click", () => {
 });
 
 
-// enter key support
+
 searchBox.addEventListener("keypress", (event) => {
 
     if (event.key === "Enter") {

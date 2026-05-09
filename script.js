@@ -1,32 +1,6 @@
-// const apicall= 'https://api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key}';
-// const apikey= '9b95d2bd4fb9742cfceb7ac11f26c926';
-// const apiurl= "https://api.openweathermap.org/data/2.5/weather?units=metric&q=bangalore";
-
-// async function checkWeather(){
-//     const response = await fetch(apiurl  + `&appid=${apikey}`);
-//     var data = await response.json();
-
-//     console.log(data);
-
-//     const searchBox = document.querySelector(".search input");
-//     const searchBtn = document.querySelector(".search button");
 
 
-//     document.querySelector(".city").innerHTML = data.name;
-//     document.querySelector(".temp").innerHTML = data.main.temp + "°c";
-//     document.querySelector(".humidity").innerHTML = data.main.humidity + "%";
-//     document.querySelector(".wind").innerHTML = data.wind + " km/h";
-// }
-
-
-
-
-// searchBtn.addEventListener('click', ()=> {
-//     checkWeather(searchBox.value)
-// })
-
-
-const apiKey = "9b95d2bd4fb9742cfceb7ac11f26c926"; // apna OpenWeather API key yaha paste karo
+const apiKey = "9b95d2bd4fb9742cfceb7ac11f26c926"; 
 const apiUrl = "https://api.openweathermap.org/data/2.5/weather?units=metric&q=";
 
 const searchBox = document.querySelector(".search input");
